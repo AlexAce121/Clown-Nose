@@ -1,0 +1,23 @@
+#heading{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20;
+}
+
+canvas{
+    animation-name: example ; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px seagreen;}
+    to{box-shadow: 1px 1px 38px navy;}
+}
+
+.btn-warning:hover{
+    background-color: rgb(208, 255, 0);
+    color: black;
+}
+
+
